@@ -66,7 +66,7 @@ ul {
   line-height: 1;
 }
 .navigation__menu--links:hover {
-  color: rgb(44, 44, 253);
+  color: #3172b9;
 }
 .navigation__menu--item:not(:last-child) {
   margin-right: 50px;
@@ -155,7 +155,7 @@ header {
 }
 .section-do-item:hover {
   color: rgb(255, 255, 255);
-  background-color: rgb(105, 120, 255);
+  background-color: #3172b9;
 }
 /* clients */
 .section-clients {
@@ -271,4 +271,15 @@ header {
 .form-button:hover {
   background-color: aliceblue;
   color: #3172b9;
+}
+@media (max-width: 1228px) {
+  .form-title {
+    margin-bottom: 100px;
+  }
+  .form {
+    text-align: center;
+  }
+  .form .form-button {
+    margin-top: 50px;
+  }
 }
